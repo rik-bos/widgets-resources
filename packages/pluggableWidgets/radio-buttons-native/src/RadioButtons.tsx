@@ -32,8 +32,8 @@ export function RadioButtons({
 
     return (
         <View testID={name}>
-            <Text style={styles.titleTestStyle}>{label}</Text>
-            <View style={[styles.containerStyle, orientation === "horizontal" && styles.containerHorizontal]}>
+            {label && <Text style={styles.labelTextStyle}>{label}</Text>}
+            <View style={orientation === "horizontal" && styles.containerHorizontal}>
                 {universe?.map(name => (
                     <RadioButton
                         key={name}
@@ -43,10 +43,11 @@ export function RadioButtons({
                         styles={styles}
                         name={name}
                         disabled={readOnly}
+                        orientation={orientation}
                     />
                 ))}
             </View>
-            <Text style={styles.validationMessage}>{validation}</Text>
+            {validation && <Text style={styles.validationMessage}>{validation}</Text>}
         </View>
     );
 }
