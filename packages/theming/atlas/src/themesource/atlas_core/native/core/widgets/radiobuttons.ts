@@ -14,6 +14,10 @@ To customize any core styling, copy the part you want to customize to styles/nat
 ========================================================================== */
 
 export const com_mendix_widget_native_radiobuttons_RadioButtons: RadioButtonsStyle = {
+    labelTextStyle: {
+        fontSize: spacing.regular,
+        marginBottom: spacing.small
+    },
     radioItemContainerStyle: {
         marginBottom: spacing.small,
         marginRight: spacing.regular,

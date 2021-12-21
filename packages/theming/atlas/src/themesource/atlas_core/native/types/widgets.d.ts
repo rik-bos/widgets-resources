@@ -738,6 +738,7 @@ export interface WebViewType {
 // Radio Buttons
 export interface RadioButtonsStyle {
     container?: ViewStyle;
+    labelTextStyle?: TextStyle;
     containerHorizontal?: ViewStyle;
     radioItemContainerStyle?: ViewStyle;
     radioItemContainerDisabledStyle?: ViewStyle;

@@ -3,6 +3,7 @@ import { TextStyle, ViewStyle } from "react-native";
 
 export interface RadioButtonsStyle extends Style {
     container: ViewStyle;
+    titleTestStyle: TextStyle;
     containerHorizontal: ViewStyle;
     radioItemContainerStyle: ViewStyle;
     radioItemContainerDisabledStyle: ViewStyle;
@@ -14,6 +15,7 @@ export interface RadioButtonsStyle extends Style {
 
 export const defaultRadioButtonsStyle: RadioButtonsStyle = {
     container: {},
+    titleTestStyle: {},
     containerHorizontal: {
         flexDirection: "row",
         alignItems: "center",
