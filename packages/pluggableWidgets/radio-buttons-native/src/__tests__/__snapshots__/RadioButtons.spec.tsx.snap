@@ -4,6 +4,11 @@ exports[`Radio buttons render disabled radio buttons correctly 1`] = `
 <View
   testID="radio-buttons-test"
 >
+  <Text
+    style={Object {}}
+  >
+    radio buttons test
+  </Text>
   <View
     style={
       Array [
@@ -47,11 +52,7 @@ exports[`Radio buttons render disabled radio buttons correctly 1`] = `
             Object {},
           ]
         }
-      >
-        <View
-          style={Object {}}
-        />
-      </View>
+      />
       <Text
         style={Object {}}
       >
@@ -111,6 +112,11 @@ exports[`Radio buttons render horizontal radio buttons correctly 1`] = `
 <View
   testID="radio-buttons-test"
 >
+  <Text
+    style={Object {}}
+  >
+    radio buttons test
+  </Text>
   <View
     style={
       Array [
@@ -218,6 +224,11 @@ exports[`Radio buttons render vertical radio buttons correctly 1`] = `
 <View
   testID="radio-buttons-test"
 >
+  <Text
+    style={Object {}}
+  >
+    radio buttons test
+  </Text>
   <View
     style={
       Array [
@@ -321,6 +332,11 @@ exports[`Radio buttons works correctly without options 1`] = `
 <View
   testID="radio-buttons-test"
 >
+  <Text
+    style={Object {}}
+  >
+    radio buttons test
+  </Text>
   <View
     style={
       Array [
