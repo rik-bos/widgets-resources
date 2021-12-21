@@ -12,7 +12,8 @@ export function getPreview(values: RadioButtonsPreviewProps, isDark: boolean): S
             {
                 type: "Text",
                 content: values.label,
-                grow: 1
+                grow: 1,
+                fontColor: isDark ? "#D6D6D6" : "#0A1324"
             },
             { type: "Container", padding: 2 }
         ]
@@ -25,7 +26,8 @@ export function getPreview(values: RadioButtonsPreviewProps, isDark: boolean): S
             {
                 type: "Text",
                 content: values.enum,
-                grow: 1
+                grow: 1,
+                fontColor: isDark ? "#D6D6D6" : "#0A1324"
             },
             { type: "Container", padding: 2 }
         ]
