@@ -22,7 +22,7 @@ describe("Radio buttons", () => {
             style: [],
             onChange: actionValue(),
             label: dynamicValue<string>("Label", false),
-            showLabel: false
+            showLabel: true
         };
     });
     it("render vertical radio buttons correctly", () => {
@@ -34,8 +34,12 @@ describe("Radio buttons", () => {
         const component = render(<RadioButtons {...defaultProps} orientation="horizontal" />);
         expect(component.toJSON()).toMatchSnapshot();
     });
+    it("render correctly with show label false", () => {
+        const component = render(<RadioButtons {...defaultProps} showLabel={false} />);
+        expect(component.toJSON()).toMatchSnapshot();
+    });
     it("render correctly without label", () => {
-        const component = render(<RadioButtons {...defaultProps} label="" />);
+        const component = render(<RadioButtons {...defaultProps} label={undefined} />);
         expect(component.toJSON()).toMatchSnapshot();
     });
     it("works correctly without options", () => {
