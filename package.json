@@ -41,7 +41,7 @@
     "create-modules:web": "node ./scripts/release/createWebModules.js",
     "version": "ts-node --project ./scripts/tsconfig.json ./scripts/release/BumpVersion.ts",
     "validate-staged-widget-versions": "node scripts/validation/validate-versions-staged-files.js",
-    "update:widgets-data": "ts-node --project ./scripts/tsconfig.json scripts/data/updateWidgetsData.ts"
+    "update:widgets-overview": "ts-node --project ./scripts/tsconfig.json scripts/data/updateWidgetsOverview.ts"
   },
   "devDependencies": {
     "@commitlint/cli": "^15.0.0",
