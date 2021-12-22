@@ -1,5 +1,5 @@
 import { createElement } from "react";
-import { actionValue, EditableValueBuilder } from "@mendix/piw-utils-internal";
+import { actionValue, dynamicValue, EditableValueBuilder } from "@mendix/piw-utils-internal";
 import { RadioButtons, props } from "../RadioButtons";
 import { fireEvent, render } from "@testing-library/react-native";
 
@@ -21,7 +21,8 @@ describe("Radio buttons", () => {
             orientation: "vertical",
             style: [],
             onChange: actionValue(),
-            label: "radio buttons test"
+            label: dynamicValue<string>("Label", false),
+            showLabel: false
         };
     });
     it("render vertical radio buttons correctly", () => {
