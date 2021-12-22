@@ -1,21 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Radio buttons render disabled radio buttons correctly 1`] = `
+exports[`Radio buttons render correctly without label 1`] = `
 <View
   testID="radio-buttons-test"
 >
-  <Text
-    style={Object {}}
-  >
-    radio buttons test
-  </Text>
+  
   <View
-    style={
-      Array [
-        undefined,
-        false,
-      ]
-    }
+    style={false}
   >
     <View
       accessible={true}
@@ -35,8 +26,113 @@ exports[`Radio buttons render disabled radio buttons correctly 1`] = `
             "alignItems": "center",
             "flexDirection": "row",
           },
+          false,
+          false,
+        ]
+      }
+      testID="radio-button-firstItem"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderWidth": 1,
+              "justifyContent": "center",
+            },
+            false,
+          ]
+        }
+      >
+        <View
+          style={Object {}}
+        />
+      </View>
+      <Text
+        style={Object {}}
+      >
+        Formatted firstItem
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
           Object {
-            "opacity": 0.3,
+            "alignItems": "center",
+            "flexDirection": "row",
+          },
+          false,
+          false,
+        ]
+      }
+      testID="radio-button-secondItem"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderWidth": 1,
+              "justifyContent": "center",
+            },
+            false,
+          ]
+        }
+      />
+      <Text
+        style={Object {}}
+      >
+        Formatted secondItem
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Radio buttons render disabled radio buttons correctly 1`] = `
+<View
+  testID="radio-buttons-test"
+>
+  <Text
+    style={Object {}}
+  >
+    radio buttons test
+  </Text>
+  <View
+    style={false}
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+          },
+          false,
+          Object {
+            "opacity": 0.5,
           },
         ]
       }
@@ -47,9 +143,10 @@ exports[`Radio buttons render disabled radio buttons correctly 1`] = `
           Array [
             Object {
               "alignItems": "center",
+              "borderWidth": 1,
               "justifyContent": "center",
             },
-            Object {},
+            undefined,
           ]
         }
       />
@@ -77,8 +174,9 @@ exports[`Radio buttons render disabled radio buttons correctly 1`] = `
             "alignItems": "center",
             "flexDirection": "row",
           },
+          false,
           Object {
-            "opacity": 0.3,
+            "opacity": 0.5,
           },
         ]
       }
@@ -89,9 +187,10 @@ exports[`Radio buttons render disabled radio buttons correctly 1`] = `
           Array [
             Object {
               "alignItems": "center",
+              "borderWidth": 1,
               "justifyContent": "center",
             },
-            Object {},
+            undefined,
           ]
         }
       />
@@ -102,9 +201,6 @@ exports[`Radio buttons render disabled radio buttons correctly 1`] = `
       </Text>
     </View>
   </View>
-  <Text
-    style={Object {}}
-  />
 </View>
 `;
 
@@ -119,14 +215,11 @@ exports[`Radio buttons render horizontal radio buttons correctly 1`] = `
   </Text>
   <View
     style={
-      Array [
-        undefined,
-        Object {
-          "alignItems": "center",
-          "flexDirection": "row",
-          "flexWrap": "wrap",
-        },
-      ]
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+      }
     }
   >
     <View
@@ -147,6 +240,9 @@ exports[`Radio buttons render horizontal radio buttons correctly 1`] = `
             "alignItems": "center",
             "flexDirection": "row",
           },
+          Object {
+            "marginBottom": 0,
+          },
           false,
         ]
       }
@@ -157,6 +253,7 @@ exports[`Radio buttons render horizontal radio buttons correctly 1`] = `
           Array [
             Object {
               "alignItems": "center",
+              "borderWidth": 1,
               "justifyContent": "center",
             },
             false,
@@ -191,6 +288,9 @@ exports[`Radio buttons render horizontal radio buttons correctly 1`] = `
             "alignItems": "center",
             "flexDirection": "row",
           },
+          Object {
+            "marginBottom": 0,
+          },
           false,
         ]
       }
@@ -201,6 +301,7 @@ exports[`Radio buttons render horizontal radio buttons correctly 1`] = `
           Array [
             Object {
               "alignItems": "center",
+              "borderWidth": 1,
               "justifyContent": "center",
             },
             false,
@@ -214,9 +315,6 @@ exports[`Radio buttons render horizontal radio buttons correctly 1`] = `
       </Text>
     </View>
   </View>
-  <Text
-    style={Object {}}
-  />
 </View>
 `;
 
@@ -230,12 +328,7 @@ exports[`Radio buttons render vertical radio buttons correctly 1`] = `
     radio buttons test
   </Text>
   <View
-    style={
-      Array [
-        undefined,
-        false,
-      ]
-    }
+    style={false}
   >
     <View
       accessible={true}
@@ -256,6 +349,7 @@ exports[`Radio buttons render vertical radio buttons correctly 1`] = `
             "flexDirection": "row",
           },
           false,
+          false,
         ]
       }
       testID="radio-button-firstItem"
@@ -265,6 +359,7 @@ exports[`Radio buttons render vertical radio buttons correctly 1`] = `
           Array [
             Object {
               "alignItems": "center",
+              "borderWidth": 1,
               "justifyContent": "center",
             },
             false,
@@ -300,6 +395,7 @@ exports[`Radio buttons render vertical radio buttons correctly 1`] = `
             "flexDirection": "row",
           },
           false,
+          false,
         ]
       }
       testID="radio-button-secondItem"
@@ -309,6 +405,7 @@ exports[`Radio buttons render vertical radio buttons correctly 1`] = `
           Array [
             Object {
               "alignItems": "center",
+              "borderWidth": 1,
               "justifyContent": "center",
             },
             false,
@@ -322,9 +419,26 @@ exports[`Radio buttons render vertical radio buttons correctly 1`] = `
       </Text>
     </View>
   </View>
+</View>
+`;
+
+exports[`Radio buttons shows validations correctly 1`] = `
+<View
+  testID="radio-buttons-test"
+>
   <Text
     style={Object {}}
+  >
+    radio buttons test
+  </Text>
+  <View
+    style={false}
   />
+  <Text
+    style={Object {}}
+  >
+    error message
+  </Text>
 </View>
 `;
 
@@ -338,15 +452,7 @@ exports[`Radio buttons works correctly without options 1`] = `
     radio buttons test
   </Text>
   <View
-    style={
-      Array [
-        undefined,
-        false,
-      ]
-    }
-  />
-  <Text
-    style={Object {}}
+    style={false}
   />
 </View>
 `;
