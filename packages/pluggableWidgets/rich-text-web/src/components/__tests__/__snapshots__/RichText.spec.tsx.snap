@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RichText render DOM structure 1`] = `
+<div
+  className="widget-rich-text"
+  style={
+    Object {
+      "height": "auto",
+      "width": "100%",
+    }
+  }
+>
+  <div
+    id="RichText_Div"
+  />
+  <MainEditor
+    config={
+      Object {
+        "config": Object {
+          "autoGrow_minHeight": 300,
+          "autoGrow_onStartup": true,
+          "disableNativeSpellChecker": true,
+          "enterMode": 1,
+          "height": "auto",
+          "readOnly": false,
+          "removeButtons": "Source,Save,Templates,NewPage,ExportPdf,Preview,Print,Cut,Redo,Copy,Undo,Paste,PasteText,PasteFromWord,Find,Replace,SelectAll,Scayt,Form,Checkbox,Radio,TextField,Textarea,Select,Button,ImageButton,HiddenField,Strike,Underline,Subscript,Superscript,CopyFormatting,RemoveFormat,CreateDiv,Blockquote,JustifyLeft,BidiLtr,Image,Table,BidiRtl,JustifyCenter,JustifyRight,Language,JustifyBlock,HorizontalRule,SpecialChar,Smiley,PageBreak,Iframe,Styles,TextColor,BGColor,ShowBlocks,Maximize,Format,Font,FontSize,Anchor",
+          "shiftEnterMode": 1,
+          "tabIndex": 1,
+          "toolbarCanCollapse": true,
+          "toolbarGroups": Array [
+            Object {
+              "groups": Array [
+                "mode",
+                "document",
+                "doctools",
+              ],
+              "name": "document",
+            },
+            Object {
+              "groups": Array [
+                "clipboard",
+                "undo",
+              ],
+              "name": "clipboard",
+            },
+            Object {
+              "groups": Array [
+                "find",
+                "selection",
+                "spellchecker",
+                "editing",
+              ],
+              "name": "editing",
+            },
+            Object {
+              "groups": Array [
+                "forms",
+              ],
+              "name": "forms",
+            },
+            Object {
+              "groups": Array [
+                "basicstyles",
+                "cleanup",
+              ],
+              "name": "basicstyles",
+            },
+            Object {
+              "groups": Array [
+                "list",
+                "indent",
+                "blocks",
+                "align",
+                "bidi",
+                "paragraph",
+              ],
+              "name": "paragraph",
+            },
+            Object {
+              "groups": Array [
+                "links",
+              ],
+              "name": "links",
+            },
+            Object {
+              "groups": Array [
+                "insert",
+              ],
+              "name": "insert",
+            },
+            Object {
+              "groups": Array [
+                "styles",
+              ],
+              "name": "styles",
+            },
+            Object {
+              "groups": Array [
+                "colors",
+              ],
+              "name": "colors",
+            },
+            Object {
+              "groups": Array [
+                "tools",
+              ],
+              "name": "tools",
+            },
+            Object {
+              "groups": Array [
+                "others",
+              ],
+              "name": "others",
+            },
+            Object {
+              "groups": Array [
+                "about",
+              ],
+              "name": "about",
+            },
+          ],
+          "width": "100%",
+        },
+        "dispatchEvent": [Function],
+        "editorUrl": "widgets/ckeditor/ckeditor.js",
+        "element": null,
+        "initContent": "Simple Text",
+        "subscribeTo": Array [
+          "change",
+        ],
+        "type": "classic",
+      }
+    }
+    key="1640256751810"
+  />
+</div>
+`;
