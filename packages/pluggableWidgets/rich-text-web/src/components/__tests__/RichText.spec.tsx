@@ -40,8 +40,6 @@ describe("RichText", () => {
     }
 
     it("render DOM structure", () => {
-        // const richText = renderer.create(<RichTextEditor {...defaultRichTextProps} />).toJSON();
-        // expect(richText).toMatchSnapshot();
         const component = shallow(<RichTextEditor {...defaultRichTextProps} />);
 
         expect(component).toMatchSnapshot();
